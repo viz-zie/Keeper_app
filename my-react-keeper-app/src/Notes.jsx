@@ -1,11 +1,11 @@
 import '../src/Notes.css'
 
-function Notes()
+function Notes(props)
 {
     return(
         <div className='note'>
-            <h1>Data Structures</h1>
-            <p>It is a very important subject</p>
+            <h1>{props.noteheading}</h1>
+            <p>{props.notecontent}</p>
         </div>
     )
 }
