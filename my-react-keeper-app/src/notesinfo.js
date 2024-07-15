@@ -28,6 +28,11 @@ const notes=[
         id : 6,
         heading:"Javascript",
         content:"Operators need to be completed ASAP"
+    },
+    {
+        id : 7,
+        heading:"Node.js",
+        content:"node packet manager need to be completed ASAP"
     }
     
 
