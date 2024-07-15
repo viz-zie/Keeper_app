@@ -4,8 +4,8 @@ function Notes(props)
 {
     return(
         <div className='note'>
-            <h1>{props.noteheading}</h1>
-            <p>{props.notecontent}</p>
+            <h1>{props.heading}</h1>
+            <p>{props.content}</p>
         </div>
     )
 }
